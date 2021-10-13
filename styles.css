@@ -1,0 +1,71 @@
+h1 {
+    color:black;
+    font-family: "Courier New","Lucida Console", monospace ;
+    width: 95%;
+    padding: 20px;
+    border: 5px solid gray;
+    margin: 0;
+    text-decoration: none;
+}
+h2 {
+    width: 750px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+    text-decoration: none;
+}
+
+.center {
+    text-align: center;
+    
+}
+
+body{
+    background-color:silver;
+}
+
+.cards {
+    color:black;
+    font-family: "Courier New", "Lucida Console", monospace;
+    padding: 10%;
+    border: solid black;
+    margin: 0;
+    text-decoration: none;
+}
+
+.about {
+    width: 25%;
+    left: 8%
+    
+}
+
+.projects {
+    width: 25%;
+    left: 41%
+} 
+
+.something_else {
+    width: 25%;
+    left: 78%
+} 
+
+
+
+p, li {
+    color: green;
+}
+
+li {
+    list-style-type: circle;
+}
+
+li.special {
+    color: orange;
+    font-weight: bold;
+}
+
+body h1 + p .special{
+    color: yellow;
+    background-color: black;
+    padding: 5px;
+}
