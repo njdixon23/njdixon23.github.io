@@ -7,46 +7,47 @@ h1 {
     margin: 0;
     text-decoration: none;
 }
-h2 {
-    width: 750px;
-    padding: 10px;
-    border: 5px solid gray;
-    margin: 0;
-    text-decoration: none;
-}
 
 .center {
     text-align: center;
-    
 }
 
 body{
     background-color:silver;
 }
 
-.cards {
-    color:black;
+.container {
+    display: flex;
+    justify-content: space-around;
+    color: black;
     font-family: "Courier New", "Lucida Console", monospace;
-    padding: 10%;
-    border: solid black;
-    margin: 0;
-    text-decoration: none;
+
+
 }
 
 .about {
     width: 25%;
-    left: 8%
+    left: 8%;
+    padding: 10%;
+    border: solid black;
+
     
 }
 
 .projects {
     width: 25%;
-    left: 41%
+    left: 41%;
+    border: solid black;
+    padding: 10%;
+
 } 
 
 .something_else {
     width: 25%;
-    left: 78%
+    left: 78%;
+    border: solid black;
+    padding: 10%;
+
 } 
 
 
